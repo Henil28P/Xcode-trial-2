@@ -3,7 +3,7 @@
 //  Xcode trial 2
 //
 //  Created by Henil Patel on 15/11/2023.
-// Hello
+//  Hello
 //
 
 import SwiftUI
@@ -14,7 +14,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Flexy")
         }
         .padding()
     }
