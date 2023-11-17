@@ -4,7 +4,9 @@
 //
 //  Created by Henil Patel on 15/11/2023.
 //  Hello
-// commit by ridhss
+// commit by ridhsss
+
+//  hehbf
 //
 
 import SwiftUI
@@ -12,7 +14,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "tree")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Flexy")
