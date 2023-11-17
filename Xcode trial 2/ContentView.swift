@@ -12,6 +12,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var firstName = ""
+    @State private var password = ""
+    
     var body: some View {
         VStack {
             Image(systemName: "tree")
@@ -19,6 +22,11 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Flexy")
         }
+        Form {
+            TextField("First Name", text: $firstName)
+            TextField("Password", text: $password)
+        }
+        .navigationTitle("Login")
         .padding()
     }
 }
